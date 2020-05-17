@@ -1,0 +1,18 @@
+,parameter,value
+0,mean_Accuracy_TEST,0.931
+1,mean_Accuracy_VALIDATION,0.9758
+2,mean_Accuracy_TRAIN,0.9704
+3,Run_Time,0:15:47.087061
+4,test_ratio,0.15
+5,folds,5
+6,batch_size,32
+7,epochs,300
+8,verbose,2
+9,shape,"(224, 224, 3)"
+10,activation_optimizer,<tensorflow.python.keras.optimizer_v2.adam.Adam object at 0x7f5c1e0924e0>
+11,early_stop_criteria,<tensorflow.python.keras.callbacks.EarlyStopping object at 0x7f5c94b54438>
+12,covid_path,dataset/covid_dataset.csv
+13,covid_image_path,dataset/covid_adjusted/
+14,normal_path,dataset/normal_xray_dataset.csv
+15,normal_image_path,dataset/normal_dataset/
+16,head_count,99
